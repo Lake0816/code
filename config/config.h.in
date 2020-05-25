@@ -1,0 +1,4 @@
+#cmakedefine CONFIG_COMMON_UART
+#cmakedefine CONFIG_COMMON_QUEUE
+#cmakedefine CONFIG_COMMON_MXML
+#cmakedefine CONFIG_COMMON_JSON
