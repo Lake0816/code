@@ -1,5 +1,5 @@
 #****************************This is Project Info****************************
-PROJECT(sklVehicleRecorder)
+PROJECT(softVehicleRecorder)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
 #****************************This is Compile Flag****************************
