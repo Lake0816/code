@@ -1,11 +1,17 @@
 #!/bin/bash
-if [ ! $1 ]; then
-	echo need dist directory parameter
+
+if [[ $# != 3 ]]; then
+	echo "Usage: ./change_name.sh directory old new"
 	exit 1
 fi
+
+if [ ! $1 ]; then
+	echo need dist directory parameter
+	exit 2
+fi
  
-original='Soft'
-newvalue='Soft'
+original=$2
+newvalue=$3
  
 function changename() {
 	name=$1
